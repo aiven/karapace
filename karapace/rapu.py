@@ -10,7 +10,7 @@ from karapace.statsd import StatsClient
 from karapace.utils import json_encode
 from karapace.version import __version__
 from typing import Dict, Optional
-from vendor.python_accept_types.accept_types import get_best_match
+from accept_types import get_best_match
 
 import aiohttp
 import aiohttp.web
